@@ -1,0 +1,340 @@
+
+/* ==== ==== All Common CSS Start ==== ==== */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a, a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+.body {
+    overflow: hidden;
+}
+
+button:focus {
+    outline: none;
+}
+
+@media (min-width: 1400px) {
+    .container {
+      max-width: 1400px;
+    }
+}
+
+.pl {
+    padding-left: 0!important;
+}
+
+.pr {
+    padding-right: 0!important;
+}
+
+.mb {
+    margin-bottom: 0!important;
+}
+
+/* ==== ==== All Common CSS End ==== ==== */
+
+/* ==== ==== Banner part Starts Here  ==== ==== */
+
+#banner {
+    background: #000;
+    padding: 20px 0;
+}
+
+.canvas {
+    padding-top: 500px;
+    padding-bottom: 360px;
+    background-image: url(../images/mujib2.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.count_up {
+    background: #1d1d1d;
+    border: 1px solid white;
+    display: inline-block;
+    position: absolute;
+    top: -400px;
+    right: -420px;
+}
+
+.count_item {
+    width: 135px;
+    /* float: left; */
+    text-align: center;
+    padding: 15px 0;
+    background: #d7d7d7;
+    margin: 10px;
+}
+
+.count {
+    background: #000;
+    padding: 20px 0;
+}
+
+.count_item h2 {
+    font-size: 50px;
+}
+
+.count_item h3 {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.sp_col_red {
+    color: red;
+}
+
+.sp_col_green {
+    color: green;
+}
+
+/* ==== Count Down ==== */
+
+.count_dwn {
+    position: absolute;
+    top: -178px;
+    right: -347px;
+}
+
+#count_down {
+    background: #1d1d1d;
+    border: 1px solid white;
+    display: inline-block;
+}
+
+.count_down_head {
+    text-align: center;
+}
+
+#count_down .count_item {
+    float: left;
+}
+
+.count_down_head h2 {
+    color: whitesmoke;
+    font-size: 40px;
+    padding: 30px 0 20px 0;
+    font-family: 'Original Surfer', cursive;
+    font-weight: 400;
+}
+
+#count_down_photo {
+    line-height: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    width: 455px;
+}
+
+#count_down_photo h2 {
+    font-size: 48px;
+    color: whitesmoke;
+    padding-top: 30px;
+    font-family: 'Original Surfer', cursive;
+    font-weight: 400;
+}
+
+/* ==== Count_up Small ==== */
+
+.count_up_sm {
+    background: #1d1d1d;
+    border: 1px solid white;
+    /* display: inline-block; */
+}
+
+.count_item_sm {
+    /* width: 135px; */
+    /* float: left; */
+    text-align: center;
+    padding: 15px 0;
+    background: #d7d7d7;
+    margin: 10px;
+}
+
+.count_item_sm h3 {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.sp_cont_mg-top {
+    margin-top: 15px;
+}
+
+/* ==== Count Down Small ==== */
+
+#count_down2 {
+    background: #1d1d1d;
+    border: 1px solid white;
+    display: inline-block;
+    width: 100%;
+}
+
+.count_down_head {
+    text-align: center;
+}
+
+#count_down_photo2 {
+    line-height: 0;
+    position: absolute;
+    top: 318px;
+    right: 4px;
+    display: none;
+}
+
+#count_down_photo2 h2 {
+    font-size: 50px;
+    color: whitesmoke;
+    padding-top: 30px;
+    font-family: 'Original Surfer', cursive;
+    font-weight: 400;
+}
+
+/* ==== ==== Banner part Ends Here  ==== ==== */
+
+/* ==== ==== Documentary part Starts Here  ==== ==== */
+
+#doc {
+    background: #000;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.doc_head {
+    padding: 15px 80px;
+}
+
+.doc_head h3 {
+    font-size: 50px;
+    color: whitesmoke;
+    font-family: 'Original Surfer', cursive;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+.photo_item {
+    margin-bottom: 30px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.photo_item img {
+    width: 100%;
+}
+
+.photo_item:hover {
+    box-shadow: 0 0 12px rgb(255, 0, 0);
+}
+
+.video_item {
+    line-height: 0;
+    position: relative;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.video_one {
+    width: 100%;
+    background-image: url(../images/vd1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+}
+
+.vid_olay {
+    background: hsla(0, 0%, 100%, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.vid_icon {
+    width: 180px;
+    height: 90px;
+    position: relative;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.vid_olay h3 {
+    padding-top: 15px;
+    font-family: 'Original Surfer', cursive;
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.vid_icon img {
+    width: 100%;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.vid_icon img:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.video_two {
+    width: 100%;
+    background-image: url(../images/vd2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+}
+
+.video_item:hover {
+    box-shadow: 0 0 12px rgb(255, 0, 0);
+}
+
+
+
+
+/* ==== ==== Documentary part Ends Here  ==== ==== */

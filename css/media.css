@@ -1,0 +1,420 @@
+
+/* ==== ==== 1. Extra-Small Devices ==== ==== */
+/* ==== ==== (X-sm) Screen ==== ==== */
+
+@media(max-width: 575.98px){
+    
+/* === === X-sm Common Start === ==== */
+/* === === X-sm Banner Start === ==== */
+
+.canvas {
+    padding-top: 125px;
+    padding-bottom: 200px;
+    background-size: contain;
+    background-position: center;
+    background-image: url(../images/mujib.jpg);
+}
+
+#cntup_lg {
+    display: none;
+}
+
+#cndwn_lg {
+    display: none;
+}
+
+.count_down_head h2 {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+#count_down_photo2 {
+    position: unset;
+    text-align: center;
+}
+
+#count_down_photo2 h2 {
+    font-size: 30px;
+    padding-top: 18px;
+}
+
+/* === === X-sm Documentary Start === ==== */
+
+#doc {
+    padding-top: 0;
+    padding-bottom: 30px;
+}
+
+.doc_head {
+    padding: 15px 0;
+    text-align: center;
+}
+
+.doc_head h3 {
+    font-size: 30px;
+    padding-bottom: 5px;
+    line-height: 35px;
+}
+
+.photo_item {
+    margin-bottom: 15px;
+}
+
+.vid_icon {
+    width: 170px;
+    top: 32%;
+}
+
+.vid_olay h3 {
+    line-height: 22px;
+}
+
+.video_one {
+    padding: 135px 0;
+}
+
+.video_two {
+    padding: 135px 0;
+}
+
+.video_item {
+    margin-bottom: 15px;
+}
+
+/* ==== X-sm END ==== */
+    
+}
+
+/* ==== ==== 2. Small Devices ==== ==== */
+/* ==== ==== (sm) Screen ==== ==== */
+
+@media(min-width: 576px) and (max-width: 767.98px){
+    
+/* === === SM Common Start === ==== */
+/* === === SM Banner Start === ==== */
+
+.canvas {
+    padding-top: 200px;
+    padding-bottom: 325px;
+    background-image: url(../images/mujib.jpg);
+    background-size: contain;
+}
+
+#cntup_lg {
+    display: none;
+}
+
+#cndwn_lg {
+    display: none;
+}
+
+.count_down_head h2 {
+    font-size: 33px;
+}
+
+#count_down2 .count_item {
+    width: 234px;
+}
+
+#count_down_photo2 {
+    position: unset;
+    text-align: center;
+}
+
+#count_down_photo2 h2 {
+    padding-bottom: 20px;
+    font-size: 45px;
+}
+
+/* === === SM Documentary Start === ==== */
+
+#doc {
+    padding-top: 0;
+    padding-bottom: 60px;
+}
+
+.doc_head {
+    padding: 15px 0;
+}
+
+.doc_head h3 {
+    font-size: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+    line-height: 55px;
+}
+
+.vid_icon {
+    width: 155px;
+    top: 25%;
+}
+
+.vid_olay h3 {
+    top: 42%;
+    line-height: 20px;
+}
+
+.video_one {
+    padding: 130px 0;
+}
+
+.video_two {
+    padding: 130px 0;
+}
+    
+/* ==== SM END ==== */
+    
+}
+
+/* ==== ==== 3. Medium Devices ==== ==== */
+/* ==== ==== (md) Screen ==== ==== */
+
+@media(min-width: 768px) and (max-width: 991.98px){
+
+/* === === MD Common Start === ==== *
+/* === === MD Banner Start === ==== */
+
+#banner {
+    padding-bottom: 0;
+}
+
+.canvas {
+    padding-top: 500px;
+    padding-bottom: 950px;
+}
+
+.count_up {
+    top: 360px;
+    right: 0;
+}
+
+.count_item {
+    width: 131px;
+}
+
+#cntup_sm {
+    display: none;
+}
+
+.count_down_head h2 {
+    font-size: 48px;
+    width: 350px;
+    margin: auto;
+    line-height: 55px;
+}
+
+.count_dwn {
+    top: 600px;
+    right: 71px;
+}
+
+#cndwn_sm {
+    display: none;
+}
+
+#count_down_photo {
+    text-align: center;
+    top: -52px;
+    right: 61px;
+}
+
+/* === === MD Documentary Start === ==== */
+
+#doc {
+    padding-top: 0;
+    padding-bottom: 60px;
+}
+
+.doc_head {
+    padding: 15px 0;
+    text-align: center;
+}
+
+.doc_head h3 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.vid_olay h3 {
+    line-height: 25px;
+}
+
+.vid_icon {
+    top: 30%;
+}
+
+
+
+/* ==== MD END ==== */
+    
+}
+
+/* ==== ==== 4. Large Devices ==== ==== */
+/* ==== ==== (lg) Screen ==== ==== */
+
+@media(min-width: 992px) and (max-width: 1199.98px){
+    
+/* === === LG Common Start === ==== */
+/* === === LG Banner Start === ==== */
+
+.canvas {
+    padding-top: 500px;
+    padding-bottom: 240px;
+    background-image: url(../images/mujib3.jpg);
+}
+
+.count_up {
+    right: -310px;
+}
+
+.count {
+    padding: 10px 0;
+}
+
+.count_item {
+    width: 75px;
+    padding: 10px 0;
+}
+
+.count_item h2 {
+    font-size: 40px;
+}
+
+.count_item h3 {
+    padding-top: 7px;
+    font-size: 14px;
+}
+
+#cntup_sm {
+    display: none;
+}
+
+.count_down_head h2 {
+    font-size: 22px;
+}
+
+.count_dwn {
+    top: -250px;
+    right: -308px;
+}
+
+#cndwn_sm {
+    display: none;
+}
+
+#count_down_photo {
+    text-align: center;
+}
+
+#count_down_photo h2 {
+    font-size: 40px;
+}
+
+/* === === LG Documentary Start === ==== */
+
+.doc_head h3 {
+    font-size: 40px;
+}
+
+.vid_icon {
+    top: 30%;
+}
+
+.vid_olay h3 {
+    line-height: 27px;
+}
+    
+/* ==== LG END ==== */
+    
+}
+
+/* ==== ==== 5. Extra Large Devices ==== ==== */
+/* ==== ==== (xl) Screen ==== ==== */
+
+@media(min-width: 1200px) and (max-width: 1399.98px){
+    
+    /* === === XL Common Start === ==== */
+    /* === === XL Banner Start === ==== */
+    
+    .canvas {
+        background-image: url(../images/mujib2.jpg);
+    }
+
+    .count_up {
+        right: -385px;
+    }
+    
+    .count {
+        padding: 15px 0;
+    }
+    
+    .count_item {
+        width: 100px;
+        padding: 15px 0;
+    }
+    
+    .count_item h2 {
+        font-size: 42px;
+    }
+    
+    .count_item h3 {
+        padding-top: 10px;
+        font-size: 16px;
+    }
+    
+    #cntup_sm {
+        display: none;
+    }
+
+    .count_down_head h2 {
+        font-size: 28px;
+    }
+
+    .count_dwn {
+        position: absolute;
+        top: -200px;
+        right: -330px;
+    }
+
+    #cndwn_sm {
+        display: none;
+    }
+
+/* === === XL Documentary Start === ==== */
+
+#doc {
+    padding-top: 0;
+}
+
+    .doc_head h3 {
+        font-size: 45px;
+        padding-bottom: 30px;
+    }
+        
+    /* ==== XL END ==== */
+        
+}
+
+/* ==== ==== 6. Extra Extra Large Devices ==== ==== */
+/* ==== ==== (xxl) Screen ==== ==== */
+
+@media(min-width: 1400px){
+    
+    /* === === XXL Common Start === ==== */
+    /* === === XXL Header Start === ==== */
+    
+    .count_up {
+        right: -420px;
+    }
+    
+    #cntup_sm {
+        display: none;
+    }
+
+    #cndwn_sm {
+        display: none;
+    }
+        
+    /* ==== XXL END ==== */
+        
+}
